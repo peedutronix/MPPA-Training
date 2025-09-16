@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ne">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>रूपान्तरण छलफल - किशोर सशक्तिकरण</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap');
+        
+        body {
+            font-family: 'Hind Siliguri', 'Poppins', sans-serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        
+        .day-card {
+            transition: all 0.3s ease;
+        }
+        
+        .day-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+        
+        .nepali-text {
+            font-family: 'Hind Siliguri', sans-serif;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="flex items-center space-x-4">
+                    <i data-feather="users" class="text-blue-600"></i>
+                    <span class="font-semibold text-lg text-gray-800">किशोर सशक्तिकरण</span>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-blue-600 font-medium">गृह</a>
+                    <a href="#program" class="text-gray-600 hover:text-blue-600">कार्यक्रम</a>
+                    <a href="#topics" class="text-gray-600 hover:text-blue-600">विषयहरू</a>
+                    <a href="#resources" class="text-gray-600 hover:text-blue-600">स्रोतहरू</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600">सम्पर्क</a>
+                </div>
+                <button class="md:hidden focus:outline-none">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">रूपान्तरण छलफल</h1>
+                    <p class="text-lg text-gray-700 mb-8 nepali-text">
+                        किशोरावस्थामा गर्भवती भएका, गर्भवती र आमाबुबा बनेका किशोरकिशोरीहरूलाई उपयोगी जीवन सीपमा आधारित रूपान्तरण कक्षाहरू प्रदान गर्ने कार्यक्रम।
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#program" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                            कार्यक्रम हेर्नुहोस्
+                        </a>
+                        <a href="#contact" class="border border-blue-600 text-blue-600 hover:bg-blue-50 px-6 py-3 rounded-lg font-medium transition duration-300">
+                            जोडिनुहोस्
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2" data-aos="fade-left">
+                    <img src="http://static.photos/people/1024x576/1" alt="Youth Empowerment" class="rounded-lg shadow-xl w-full">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Overview -->
+    <section id="program" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">७ दिने रूपान्तरण कार्यक्रम</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto nepali-text">
+                    यो कार्यक्रममा किशोरकिशोरीहरूलाई जीवन सीप, स्वास्थ्य ज्ञान, अधिकार र कर्तव्य बारे जानकारी दिइनेछ।
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-7 gap-4">
+                <!-- Day 1 -->
+                <div class="day-card bg-blue-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-blue-600 font-bold">१</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">म, मेरो परिवार, आत्म-जागरण</h3>
+                    <p class="text-gray-600 text-sm nepali-text">
+                        जीवन रूपी खोला, दैनिक कार्य फारम, सम्बन्ध नक्सांकन
+                    </p>
+                </div>
+                
+                <!-- Day 2 -->
+                <div class="day-card bg-purple-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="150">
+                    <div class="bg-purple-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-purple-600 font-bold">२</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">आत्म-जागरण तथा अधिकार कर्तव्य</h3>
+                    <p class="text-gray-600 text-sm nepali-text">
+                        सपना र लक्ष्य, SWOT विश्लेषण, राम्रो स्पर्श र नराम्रो स्पर्श
+                    </p>
+                </div>
+                
+                <!-- Day 3 -->
+                <div class="day-card bg-green-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-green-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-green-600 font-bold">३</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">हिंसाका प्रकार र पोषण</h3>
+                    <p class="text-gray-600 text-sm nepali-text">
+                        हिंसाका प्रकार, अनलाइन हिंसा, किशोरावस्थामा हुने परिवर्तनहरू
+                    </p>
+                </div>
+                
+                <!-- Day 4 -->
+                <div class="day-card bg-yellow-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="250">
+                    <div class="bg-yellow-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-yellow-600 font-bold">४</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">कुपोषण चक्र र स्थानीय योजना</h3>
+                    <p class="text-gray-600 text-sm nepali-text">
+                        अन्तर-पुस्ता कुपोषण चक्र, सामाजिक घटना दर्ता, स्थानीय योजना निर्माण
+                    </p>
+                </div>
+                
+                <!-- Day 5 -->
+                <div class="day-card bg-red-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-red-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-red-600 font-bold">५</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">महिनावारी र यौन स्वास्थ्य</h3>
+                    <p class="text-gray-600 text-sm nepali-text">
+                        महिनावारी चक्र, यौन तथा प्रजनन स्वास्थ्य अधिकार, परिवार नियोजन
+                    </p>
+                </div>
+                
+                <!-- Day 6 -->
+                <div class="day-card bg-indigo-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="350">
+                    <div class="bg-indigo-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-indigo-600 font-bold">६</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">सुरक्षित मातृत्व र लिङ्ग निर्धारण</h3>
+                    <p class="text-gray-600 text-sm nepali-text">
+                        सुरक्षित गर्भपतन, कम उमेरमा गर्भधारण, शिशु स्याहार
+                    </p>
+                </div>
+                
+                <!-- Day 7 -->
+                <div class="day-card bg-pink-50 p-6 rounded-lg shadow-md" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-pink-100 w-12 h-12 rounded-full flex items-center justify-center mb-4">
+                        <span class="text-pink-600 font-bold">७</span>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 mb-2">मनोसामाजिक स्वास्थ्य</h3>
+                    <p class="text-gray-600 text-sm nepali-text">
+                        मानसिक स्वास्थ्य, आत्महत्या रोकथाम, अभिभावक शिक्षा
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Topics Section -->
+    <section id="topics" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">मुख्य विषयहरू</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto nepali-text">
+                    कार्यक्रममा समावेश गरिएका महत्वपूर्ण विषयवस्तुहरू
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Life Skills -->
+                <div class="bg-white p-8 rounded-xl shadow-md" data-aos="fade-up">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="heart" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">जीवन सीपहरू</h3>
+                    <ul class="space-y-3 text-gray-600 nepali-text">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>तनाव व्यवस्थापनका सीपहरू</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>सम्बन्ध नक्सांकन</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>सुरक्षित र असुरक्षित स्थानको पहिचान</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>सपना र लक्ष्य निर्धारण</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Health & Rights -->
+                <div class="bg-white p-8 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="150">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="shield" class="text-purple-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">स्वास्थ्य र अधिकार</h3>
+                    <ul class="space-y-3 text-gray-600 nepali-text">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>यौन तथा प्रजनन स्वास्थ्य अधिकार</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>महिनावारी स्वच्छता व्यवस्थापन</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>सुरक्षित मातृत्व</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>परिवार नियोजनका विधिहरू</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!-- Social Issues -->
+                <div class="bg-white p-8 rounded-xl shadow-md" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mb-6">
+                        <i data-feather="users" class="text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">सामाजिक मुद्दाहरू</h3>
+                    <ul class="space-y-3 text-gray-600 nepali-text">
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>हिंसाका प्रकार (घरेलु, अनलाइन, बालविवाह)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>लैङ्गिक समानता</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>कुपोषण चक्र र पोषण</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="check" class="text-green-500 mr-2 mt-1 flex-shrink-0"></i>
+                            <span>मानसिक स्वास्थ्य र आत्महत्या रोकथाम</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="py-20 bg-blue-600 text-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold mb-4">तथ्याङ्कहरू</h2>
+                <p class="max-w-2xl mx-auto nepali-text">
+                    शिवराज नगरपालिकामा गरिएको द्रुत लेखाजोखा सर्वेक्षणका केही तथ्याङ्कहरू
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-4 gap-8">
+                <div class="text-center" data-aos="zoom-in">
+                    <div class="text-4xl font-bold mb-2">७५%</div>
+                    <p class="nepali-text">आमा बनिसकेका किशोरीहरू</p>
+                </div>
+                <div class="text-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-4xl font-bold mb-2">५६%</div>
+                    <p class="nepali-text">प्राथमिक शिक्षा समाप्त गर्न सकेका</p>
+                </div>
+                <div class="text-center" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-4xl font-bold mb-2">७७%</div>
+                    <p class="nepali-text">आर्थिक समस्याले गर्दा बालविवाह</p>
+                </div>
+                <div class="text-center" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="text-4xl font-bold mb-2">३६%</div>
+                    <p class="nepali-text">गर्भवती किशोरीहरूमा मानसिक तनाव</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">स्रोत सामग्रीहरू</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto nepali-text">
+                    किशोरकिशोरीहरूका लागि उपयोगी स्रोत सामग्रीहरू
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Educational Materials -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300" data-aos="fade-up">
+                    <img src="http://static.photos/education/640x360/1" alt="Educational Materials" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-3">शैक्षिक सामग्रीहरू</h3>
+                        <p class="text-gray-600 mb-4 nepali-text">
+                            जीवन सीप, स्वास्थ्य शिक्षा, र अधिकार सम्बन्धी पुस्तिकाहरू
+                        </p>
+                        <a href="#" class="text-blue-600 font-medium flex items-center">
+                            डाउनलोड गर्नुहोस्
+                            <i data-feather="download" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Videos -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="150">
+                    <img src="http://static.photos/technology/640x360/2" alt="Educational Videos" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-3">शैक्षिक भिडियोहरू</h3>
+                        <p class="text-gray-600 mb-4 nepali-text">
+                            विभिन्न विषयमा जानकारी दिने भिडियोहरूको संग्रह
+                        </p>
+                        <a href="#" class="text-blue-600 font-medium flex items-center">
+                            हेर्नुहोस्
+                            <i data-feather="play-circle" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Helpline -->
+                <div class="border border-gray-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <img src="http://static.photos/medical/640x360/3" alt="Helpline" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="font-semibold text-lg text-gray-800 mb-3">हेल्पलाइन र सेवाहरू</h3>
+                        <p class="text-gray-600 mb-4 nepali-text">
+                            आवश्यक सेवा र सहयोग प्रदान गर्ने संस्थाहरूको जानकारी
+                        </p>
+                        <a href="#" class="text-blue-600 font-medium flex items-center">
+                            सेवाहरू हेर्नुहोस्
+                            <i data-feather="phone" class="ml-2 w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">हामीसँग जोडिनुहोस्</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto nepali-text">
+                    कार्यक्रममा सहभागी हुन वा थप जानकारीका लागि हामीलाई सम्पर्क गर्नुहोस्
+                </p>
+            </div>
+            
+            <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-blue-600 text-white p-10 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold mb-6">सम्पर्क जानकारी</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start">
+                                <i data-feather="map-pin" class="mr-4 mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold">हाम्रो ठेगाना</h4>
+                                    <p class="nepali-text">शिवराज नगरपालिका, वडा नं. ५</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i data-feather="phone" class="mr-4 mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold">फोन नम्बर</h4>
+                                    <p>९८७६५४३२१०</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i data-feather="mail" class="mr-4 mt-1"></i>
+                                <div>
+                                    <h4 class="font-semibold">इमेल</h4>
+                                    <p>kishor@empowerment.org</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 p-10">
+                        <form>
+                            <div class="mb-6">
+                                <label for="name" class="block text-gray-700 font-medium mb-2 nepali-text">नाम</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            <div class="mb-6">
+                                <label for="email" class="block text-gray-700 font-medium mb-2">इमेल</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 font-medium mb-2 nepali-text">सन्देश</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 nepali-text">
+                                पठाउनुहोस्
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:justify-between">
+                <div class="mb-8 md:mb-0">
+                    <div class="flex items-center mb-4">
+                        <i data-feather="users" class="text-blue-400 mr-2"></i>
+                        <span class="font-semibold text-lg">किशोर सशक्तिकरण</span>
+                    </div>
+                    <p class="text-gray-400 max-w-xs nepali-text">
+                        किशोरावस्थामा आमाबुबा बनेका किशोरकिशोरीहरूको जीवनमा सकारात्मक परिवर्तन ल्याउने उद्देश्यले सञ्चालित कार्यक्रम
+                    </p>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4">लिङ्कहरू</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#home" class="text-gray-400 hover:text-white transition nepali-text">गृह</a></li>
+                            <li><a href="#program" class="text-gray-400 hover:text-white transition nepali-text">कार्यक्रम</a></li>
+                            <li><a href="#topics" class="text-gray-400 hover:text-white transition nepali-text">विषयहरू</a></li>
+                            <li><a href="#resources" class="text-gray-400 hover:text-white transition nepali-text">स्रोतहरू</a></li>
+                            <li><a href="#contact" class="text-gray-400 hover:text-white transition nepali-text">सम्पर्क</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4">स्रोतहरू</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">डाउनलोडहरू</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">भिडियोहरू</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">हेल्पलाइन</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">अक्सर सोधिने प्रश्न</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-lg mb-4">हाम्रो बारेमा</h4>
+                        <ul class="space-y-2">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">हाम्रो टोली</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">समाचार</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">कार्यक्रमहरू</a></li>
+                            <li><a href="#" class="text-gray-400 hover:text-white transition nepali-text">सहभागी बन्नुहोस्</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0 nepali-text">© २०२३ किशोर सशक्तिकरण कार्यक्रम. सर्वाधिकार सुरक्षित.</p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i data-feather="facebook"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i data-feather="twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i data-feather="instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i data-feather="youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init();
+        feather.replace();
+    </script>
+</body>
+</html>
